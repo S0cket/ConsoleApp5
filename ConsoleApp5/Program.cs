@@ -48,5 +48,7 @@ namespace ConsoleApp5 {
 		static TimeSpan Copy(TimeSpan time) {
 			return new TimeSpan(time.Hours, time.Minutes, time.Seconds);
 		}
+
+		///
 	}
 }
